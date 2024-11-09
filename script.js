@@ -9,7 +9,6 @@ window.addEventListener("load", () => {
     const m = getM(now);
     const s = getS(now);
     const time = `${h}:${m}:${s}`;
-    console.log(time);
     clock.innerText = time;
   }, 1000);
 });

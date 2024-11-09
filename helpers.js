@@ -4,7 +4,7 @@ function getH(date) {
 }
 
 function getM(date) {
-  const m = date.getSeconds();
+  const m = date.getMinutes();
   return m < 10 ? `0${m}` : m;
 }
 
@@ -13,4 +13,4 @@ function getS(date) {
   return s < 10 ? `0${s}` : s;
 }
 
-export default { getH, getM, getS };
+export { getH, getM, getS };
